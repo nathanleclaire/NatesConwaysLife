@@ -1,0 +1,61 @@
+body {
+	background-image: url(../gigstation/cork_1.png);
+}
+
+p {
+    margin-bottom: 5px;
+	line-height: 35%;
+}
+    
+p.title {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom:0px;
+}
+
+p.subtitle {
+   font-style: italic;
+    font-size: 10px;
+} 
+    
+div#wrapper {
+    margin: 10px auto;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div#thegrid {
+    margin: 10px auto;
+    text-align: center;
+    display:table;
+    background-color: #cdcdcd;
+    z-index: 2;
+}
+
+.cell {
+    display:table-cell;
+    width:10px;
+    height:10px;
+    opacity: 1;
+    margin: 0px auto;
+}  
+    
+.live {
+    background:black;
+    border: 2px solid #cdcdcd;
+    -webkit-border-radius: 3px;
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+    -o-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+}
+
+.live:hover {
+    background: #ee971d;
+    cursor: pointer;
+}
+
+.dead {
+    background-color:#FFFFFF;
+    border: 2px solid #cdcdcd;
+}
