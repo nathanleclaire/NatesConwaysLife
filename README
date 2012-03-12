@@ -1,0 +1,3 @@
+This is my implementation of the classic "Conway's Life" automaton.  It uses jQuery and the jQuery UI from Google's CDN.
+
+Feel free to fork me or tinker with it!
